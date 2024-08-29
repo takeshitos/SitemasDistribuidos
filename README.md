@@ -1,4 +1,6 @@
-# Relatório/README dos Tempos de Execução e Configuração das Máquinas
+![banner](/Sem%20nome%20(575%20x%20414%20px).png)
+# Trabalho Final - Sistema Distribuído
+
 ## Introdução
 O trabalho prático consiste na resolução do Problema de N Rainhas de forma paralela ou distribuída. O objetivo é desenvolver e comparar algoritmos paralelos e sequenciais, testando a escalabilidade e a eficiência em diferentes configurações de hardware. Este relatório apresenta os tempos de execução dos algoritmos, bem como as especificações das máquinas utilizadas.
 
@@ -20,23 +22,12 @@ Processador: AMD Ryzen 7 1700 Eight-Core Processor @ 3.00 GHz
 Memória RAM: 16,0 GB 3000Mhz
 
 #### Máquina 5
-Paralelo:
-6 Rainhas - 0.0070 segundos
-9 Rainhas - 0.0529 segundos
-12 Rainhas - 6.4177 segundos
-
-Sequencial:
-6 Rainhas - 0.0010 segundos
-9 Rainhas - 0.0441 segundos
-12 Rainhas - 6.3355 segundos
-
 Processador   AMD Ryzen 7 4800H with Radeon Graphics 2.90 GHz 
 RAM instalada    32,0 GB (utilizável: 19,9 GB)
 
 ## Tempos de Execução
 
 ### Máquina 1
-
 ##### Paralelo:
 6 Rainhas: 0.0060 segundos
 9 Rainhas: 0.0540 segundos
@@ -47,7 +38,6 @@ Sequencial:
 12 Rainhas: 6.7970 segundos
 
 ### Máquina 2
-
 ##### Paralelo:
 6 Rainhas: 0.0065 segundos
 9 Rainhas: 0.0506 segundos
@@ -59,7 +49,6 @@ Sequencial:
 12 Rainhas: 6.6797 segundos
 
 ### Máquina 3
-
 ##### Paralelo:
 6 Rainhas: 0.0040 segundos
 9 Rainhas: 0.0401 segundos
@@ -71,7 +60,6 @@ Sequencial:
 12 Rainhas: 5.1900 segundos
 
 ### Máquina 4
-
 ##### Paralelo:
 6 Rainhas: 0.0070 segundos
 9 Rainhas: 0.0740 segundos
@@ -82,10 +70,21 @@ Sequencial:
 9 Rainhas: 0.0670 segundos
 12 Rainhas: 9.2750 segundos
 
-## Conclusões e Análises
- **Comparação de Tempos:** Observa-se que o tempo de execução da solução paralela é geralmente maior do que o da solução sequencial em N menores, mas tende a se equiparar ou superar a solução sequencial em N maiores, dependendo do poder de processamento da máquina.
+### Máquina 5
+##### Paralelo:
+6 Rainhas - 0.0070 segundos
+9 Rainhas - 0.0529 segundos
+12 Rainhas - 6.4177 segundos
 
-**Escalabilidade:**As máquinas com mais núcleos e maiores frequências de CPU (Máquinas 3 e 4) apresentam melhor desempenho para o algoritmo paralelo, especialmente em N maiores.
+##### Sequencial:
+6 Rainhas - 0.0010 segundos
+9 Rainhas - 0.0441 segundos
+12 Rainhas - 6.3355 segundos
+
+## Conclusões e Análises
+**Comparação de Tempos:** Observa-se que o tempo de execução da solução paralela é geralmente maior do que o da solução sequencial em N menores, mas tende a se equiparar ou superar a solução sequencial em N maiores, dependendo do poder de processamento da máquina.
+
+**Escalabilidade:** As máquinas com mais núcleos e maiores frequências de CPU (Máquinas 3 e 4) apresentam melhor desempenho para o algoritmo paralelo, especialmente em N maiores.
 
 **Eficiência:** Apesar das diferenças de hardware, as soluções paralelas em máquinas com processadores mais potentes e mais núcleos (Máquinas 3 e 4) conseguem melhores tempos de execução em N maiores, o que sugere uma boa escalabilidade do algoritmo.
 
