@@ -1,6 +1,8 @@
 ![banner](/Sem%20nome%20(575%20x%20414%20px).png)
 # Trabalho Final - Sistema Distribuído
 
+[![NPM](https://img.shields.io/npm/l/react)](https://gitlab.com/compass.uol2/pb_compass.uol_takeshi/-/blob/main/LICENSE) 
+
 ## Introdução
 O trabalho prático consiste na resolução do Problema de N Rainhas de forma paralela ou distribuída. O objetivo é desenvolver e comparar algoritmos paralelos e sequenciais, testando a escalabilidade e a eficiência em diferentes configurações de hardware. Este relatório apresenta os tempos de execução dos algoritmos, bem como as especificações das máquinas utilizadas.
 
