@@ -1,29 +1,43 @@
 # Relatório/README dos Tempos de Execução e Configuração das Máquinas
-Introdução
+## Introdução
 O trabalho prático consiste na resolução do Problema de N Rainhas de forma paralela ou distribuída. O objetivo é desenvolver e comparar algoritmos paralelos e sequenciais, testando a escalabilidade e a eficiência em diferentes configurações de hardware. Este relatório apresenta os tempos de execução dos algoritmos, bem como as especificações das máquinas utilizadas.
 
-Configurações das Máquinas
-Máquina 1
-
-Modelo: Nitro AN515-55
+### Configurações das Máquinas
+#### Máquina 1
 Processador: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
 Memória RAM: 16,0 GB (utilizável: 15,8 GB)
-Máquina 2
 
+#### Máquina 2
 Processador: AMD Ryzen 5 7520U with Radeon Graphics 2.80 GHz
 Memória RAM: 16,0 GB (utilizável: 15,2 GB)
-Máquina 3
 
+#### Máquina 3
 Processador: AMD Ryzen 5 5600X 6-Core Processor @ 3.70 GHz
 Memória RAM: 48,0 GB (utilizável: 47,9 GB)
-Máquina 4
 
+#### Máquina 4
 Processador: AMD Ryzen 7 1700 Eight-Core Processor @ 3.00 GHz
 Memória RAM: 16,0 GB 3000Mhz
-Tempos de Execução
-Máquina 1
 
+#### Máquina 5
 Paralelo:
+6 Rainhas - 0.0070 segundos
+9 Rainhas - 0.0529 segundos
+12 Rainhas - 6.4177 segundos
+
+Sequencial:
+6 Rainhas - 0.0010 segundos
+9 Rainhas - 0.0441 segundos
+12 Rainhas - 6.3355 segundos
+
+Processador   AMD Ryzen 7 4800H with Radeon Graphics 2.90 GHz 
+RAM instalada    32,0 GB (utilizável: 19,9 GB)
+
+## Tempos de Execução
+
+### Máquina 1
+
+##### Paralelo:
 6 Rainhas: 0.0060 segundos
 9 Rainhas: 0.0540 segundos
 12 Rainhas: 6.9064 segundos
@@ -33,7 +47,7 @@ Sequencial:
 12 Rainhas: 6.7970 segundos
 Máquina 2
 
-Paralelo:
+##### Paralelo:
 6 Rainhas: 0.0065 segundos
 9 Rainhas: 0.0506 segundos
 12 Rainhas: 6.9875 segundos
@@ -41,7 +55,8 @@ Sequencial:
 6 Rainhas: 0.0010 segundos
 9 Rainhas: 0.0495 segundos
 12 Rainhas: 6.6797 segundos
-Máquina 3
+
+#### Máquina 3
 
 Paralelo:
 6 Rainhas: 0.0040 segundos
