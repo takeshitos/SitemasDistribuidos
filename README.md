@@ -32,7 +32,7 @@ RAM instalada    32,0 GB (utilizável: 19,9 GB)
 6 Rainhas: 0.0060 segundos
 9 Rainhas: 0.0540 segundos
 12 Rainhas: 6.9064 segundos
-Sequencial:
+##### Sequencial:
 6 Rainhas: 0.0010 segundos
 9 Rainhas: 0.0510 segundos
 12 Rainhas: 6.7970 segundos
