@@ -45,45 +45,51 @@ Sequencial:
 6 Rainhas: 0.0010 segundos
 9 Rainhas: 0.0510 segundos
 12 Rainhas: 6.7970 segundos
-Máquina 2
+
+### Máquina 2
 
 ##### Paralelo:
 6 Rainhas: 0.0065 segundos
 9 Rainhas: 0.0506 segundos
 12 Rainhas: 6.9875 segundos
-Sequencial:
+
+##### Sequencial:
 6 Rainhas: 0.0010 segundos
 9 Rainhas: 0.0495 segundos
 12 Rainhas: 6.6797 segundos
 
-#### Máquina 3
+### Máquina 3
 
-Paralelo:
+##### Paralelo:
 6 Rainhas: 0.0040 segundos
 9 Rainhas: 0.0401 segundos
 12 Rainhas: 5.2696 segundos
-Sequencial:
+
+##### Sequencial:
 6 Rainhas: 0.0010 segundos
 9 Rainhas: 0.0362 segundos
 12 Rainhas: 5.1900 segundos
-Máquina 4
 
-Paralelo:
+### Máquina 4
+
+##### Paralelo:
 6 Rainhas: 0.0070 segundos
 9 Rainhas: 0.0740 segundos
 12 Rainhas: 9.7924 segundos
-Sequencial:
+
+##### Sequencial:
 6 Rainhas: 0.0010 segundos
 9 Rainhas: 0.0670 segundos
 12 Rainhas: 9.2750 segundos
-Conclusões e Análises
-Comparação de Tempos: Observa-se que o tempo de execução da solução paralela é geralmente maior do que o da solução sequencial em N menores, mas tende a se equiparar ou superar a solução sequencial em N maiores, dependendo do poder de processamento da máquina.
 
-Escalabilidade: As máquinas com mais núcleos e maiores frequências de CPU (Máquinas 3 e 4) apresentam melhor desempenho para o algoritmo paralelo, especialmente em N maiores.
+## Conclusões e Análises
+ **Comparação de Tempos:** Observa-se que o tempo de execução da solução paralela é geralmente maior do que o da solução sequencial em N menores, mas tende a se equiparar ou superar a solução sequencial em N maiores, dependendo do poder de processamento da máquina.
 
-Eficiência: Apesar das diferenças de hardware, as soluções paralelas em máquinas com processadores mais potentes e mais núcleos (Máquinas 3 e 4) conseguem melhores tempos de execução em N maiores, o que sugere uma boa escalabilidade do algoritmo.
+**Escalabilidade:**As máquinas com mais núcleos e maiores frequências de CPU (Máquinas 3 e 4) apresentam melhor desempenho para o algoritmo paralelo, especialmente em N maiores.
 
-Gargalos: O overhead de criação e sincronização de threads pode ser um fator limitante para N menores, onde o tempo de comunicação entre threads é comparável ao tempo de cálculo. Em N maiores, o paralelismo tende a ser mais eficiente, especialmente em máquinas com mais núcleos.
+**Eficiência:** Apesar das diferenças de hardware, as soluções paralelas em máquinas com processadores mais potentes e mais núcleos (Máquinas 3 e 4) conseguem melhores tempos de execução em N maiores, o que sugere uma boa escalabilidade do algoritmo.
+
+**Gargalos:** O overhead de criação e sincronização de threads pode ser um fator limitante para N menores, onde o tempo de comunicação entre threads é comparável ao tempo de cálculo. Em N maiores, o paralelismo tende a ser mais eficiente, especialmente em máquinas com mais núcleos.
 
 Roteiro para Apresentação (10 minutos)
 Introdução (1 minuto)
