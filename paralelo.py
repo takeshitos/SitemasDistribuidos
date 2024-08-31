@@ -1,8 +1,8 @@
 import concurrent.futures
 import time
 
+
 def is_safe(board, row, col):
-    # Verifica se é seguro colocar uma rainha na posição (row, col)
     for i in range(col):
         if board[row][i] == 1:
             return False
@@ -18,7 +18,6 @@ def is_safe(board, row, col):
     return True
 
 def solve_n_queens_util(board, col):
-    # Soluciona o problema de N Rainhas usando uma abordagem recursiva
     if col >= len(board):
         return 1
 
@@ -27,12 +26,11 @@ def solve_n_queens_util(board, col):
         if is_safe(board, i, col):
             board[i][col] = 1
             count += solve_n_queens_util(board, col + 1)
-            board[i][col] = 0  # Backtrack
+            board[i][col] = 0
 
     return count
 
 def solve_n_queens(n):
-    # Inicializa o tabuleiro NxN
     board = [[0] * n for _ in range(n)]
     return solve_n_queens_util(board, 0)
 

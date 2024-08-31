@@ -1,6 +1,7 @@
 import concurrent.futures
 import time
 
+
 def is_safe(board, row, col, n):
     for i in range(col):
         if board[row][i] == 1:
@@ -41,7 +42,7 @@ def solve_n_queens_parallel(n):
     return sum(results)
 
 if __name__ == "__main__":
-    N = 2000
+    N = 12 # Número de rainhas
     start_time = time.time()
     solutions = solve_n_queens_parallel(N)
     end_time = time.time()
