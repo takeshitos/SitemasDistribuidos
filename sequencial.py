@@ -24,7 +24,7 @@ def solve_n_queens_util(board, col):
         if is_safe(board, i, col):
             board[i][col] = 1
             count += solve_n_queens_util(board, col + 1)
-            board[i][col] = 0  # Backtrack
+            board[i][col] = 0  
 
     return count
 
@@ -33,7 +33,7 @@ def solve_n_queens(n):
     return solve_n_queens_util(board, 0)
 
 if __name__ == "__main__":
-    N = 12  # Número de rainhas
+    N = 12  
     start_time = time.time()
     solutions = solve_n_queens(N)
     end_time = time.time()
