@@ -41,7 +41,7 @@ def solve_n_queens_parallel(n):
     return sum(results)
 
 if __name__ == "__main__":
-    N = 2000
+    N = 12
     start_time = time.time()
     solutions = solve_n_queens_parallel(N)
     end_time = time.time()
